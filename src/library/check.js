@@ -6,10 +6,8 @@
 import { SVG, Path } from '@wordpress/primitives';
 
 const check = (
-	<SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-		<Path
-			d="M46 18L25 38l-9-9-4 4 13 13 25-24-4-4z"
-		/>
+	<SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+		<Path d="M61.698.284a1 1 0 01.018 1.414l-39 40a1 1 0 01-1.44-.008l-21-22a1 1 0 011.447-1.38l20.285 21.25L60.284.302a1 1 0 011.414-.018z" />
 	</SVG>
 );
 
