@@ -25,9 +25,4 @@ import { check } from '@sixach/icon-library';
 
 Name | Type | Default | Description
 --- | --- | --- | ---
-`size` | `integer` | `64` | Size of icon in pixels.
-
-
-## Documentation
-
-Documentation pages can be viewed [here](https://sixach.github.io/icon-library).
+`size` | `integer` | `24` | Size of icon in pixels.
