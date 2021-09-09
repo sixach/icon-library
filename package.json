@@ -1,6 +1,6 @@
 {
 	"name": "@sixach/icon-library",
-	"version": "1.0.0",
+	"version": "1.1.0-beta.1",
 	"description": "Icons library.",
 	"keywords": [
 		"sixa",
@@ -45,14 +45,14 @@
 		]
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.14.8",
-		"@babel/core": "^7.14.8",
-		"@babel/preset-env": "^7.14.8",
+		"@babel/cli": "^7.15.4",
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
 		"@babel/preset-react": "7.14.5",
-		"@wordpress/scripts": "^17.1.0",
+		"@wordpress/scripts": "^18.0.1",
 		"cross-env": "7.0.3",
-		"husky": "^7.0.1",
-		"lint-staged": "^11.1.1",
+		"husky": "^7.0.2",
+		"lint-staged": "^11.1.2",
 		"lodash": "4.17.21"
 	},
 	"publishConfig": {
