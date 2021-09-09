@@ -2,7 +2,8 @@ export default {
 	id: 'list',
 	paths: [
 		{
-			d: 'M8 6.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm12-.997h-9v2h9v-2zm0 11h-9v2h9v-2zM11 11h9v2h-9v-2zm-4.5 8a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM8 12a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z',
+			d:
+				'M8 6.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm12-.997h-9v2h9v-2zm0 11h-9v2h9v-2zM11 11h9v2h-9v-2zm-4.5 8a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM8 12a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',

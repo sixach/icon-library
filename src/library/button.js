@@ -19,8 +19,7 @@ export default {
 			},
 		},
 		{
-			d:
-				'M4 9a.5.5 0 01.5-.5h14a.5.5 0 01.5.5v5a.5.5 0 01-.5.5h-14A.5.5 0 014 14V9zm1 .5v4h13v-4H5z',
+			d: 'M4 9a.5.5 0 01.5-.5h14a.5.5 0 01.5.5v5a.5.5 0 01-.5.5h-14A.5.5 0 014 14V9zm1 .5v4h13v-4H5z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',

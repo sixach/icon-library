@@ -15,8 +15,7 @@ export default {
 			},
 		},
 		{
-			d:
-				'M4 9a1 1 0 011-1h14a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1V9zm1 0v6h14V9H5z',
+			d: 'M4 9a1 1 0 011-1h14a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1V9zm1 0v6h14V9H5z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
