@@ -1,4 +1,4 @@
-# Sixa Icon Library
+# Icon Library
 
 A collection of line, solid, color & flat icons.
 
@@ -15,10 +15,10 @@ _This package assumes that your code will run in an **ES2015+** environment. If 
 ## Usage
 
 ```js
-import { Icon } from '@wordpress/icons';
-import { check } from '@sixach/icon-library';
+import { add } from '@sixach/icon-library';
+import { GenerateSvgPaths } from '@sixach/wp-block-components';
 
-<Icon icon={ check } />
+<GenerateSvgPaths paths={ add.paths } withSvgWrapper />
 ```
 
 ## Props
