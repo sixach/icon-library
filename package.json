@@ -33,11 +33,6 @@
 		"packages-update": "wp-scripts packages-update",
 		"prepublishOnly": "npm run format && npm run build"
 	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
-	},
 	"lint-staged": {
 		"*.{js,ts,tsx}": [
 			"npm run lint:js",
