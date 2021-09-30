@@ -11,7 +11,7 @@ export default {
 			d: 'M5 8h14V7H5v1z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
-				opacity: '.25',
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{

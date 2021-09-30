@@ -13,7 +13,7 @@ export default {
 			d: 'M7 9h10v2H7z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
-				opacity: '.25',
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{

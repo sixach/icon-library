@@ -11,7 +11,7 @@ export default {
 			d: 'M8.528 15.872l4.42-4.419a1 1 0 010 1.414L9.234 16.58l-.707-.707z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
-				opacity: '.25',
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{

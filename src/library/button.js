@@ -15,7 +15,7 @@ export default {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
-				opacity: '.25',
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{

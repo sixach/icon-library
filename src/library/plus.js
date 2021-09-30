@@ -12,7 +12,7 @@ export default {
 			d: 'M13 5h-1v6.5a.5.5 0 00.5.5H19v-1h-6V5z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
-				opacity: '.25',
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{

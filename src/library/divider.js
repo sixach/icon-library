@@ -11,7 +11,7 @@ export default {
 			d: 'M4.5 19v-2.5c1.667.667 4.601.416 7.5-2 3-2.5 4-3 7.5-3V19h-15z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
-				opacity: '.25',
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{
