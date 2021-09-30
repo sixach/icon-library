@@ -1,3 +1,5 @@
+import { COLORS } from '../utils';
+
 export default {
 	id: 'icon-picker',
 	paths: [

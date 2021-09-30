@@ -1,3 +1,5 @@
+import { COLORS } from '../utils';
+
 export default {
 	id: 'share',
 	paths: [
