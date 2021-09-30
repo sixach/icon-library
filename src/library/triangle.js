@@ -4,7 +4,7 @@ export default {
 		{
 			d: 'M11.5 18L4.139 6H18.86L11.5 18z',
 			attrs: {
-				fill: '#0094FF',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{

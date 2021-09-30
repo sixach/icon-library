@@ -6,7 +6,7 @@ export default {
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
-				fill: '#0094FF',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{

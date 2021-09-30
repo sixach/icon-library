@@ -1,17 +1,19 @@
+import { COLORS } from '../utils';
+
 export default {
 	id: 'faq',
 	paths: [
 		{
 			d: 'M12 21.375a9.375 9.375 0 100-18.75 9.375 9.375 0 100 18.75z',
 			attrs: {
-				fill: '#FDBCCB',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{
 			d: 'M13.25 20.125a9.375 9.375 0 01-7.224-15.35 9.375 9.375 0 1013.198 13.2 9.338 9.338 0 01-5.974 2.15z',
 			attrs: {
-				fill: '#E6E6FF',
-				opacity: '.6',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{
@@ -20,7 +22,7 @@ export default {
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
-				fill: '#5364FF',
+				fill: COLORS.SHAPE_BORDER,
 			},
 		},
 	],

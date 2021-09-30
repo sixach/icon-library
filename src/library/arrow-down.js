@@ -4,7 +4,7 @@ export default {
 		{
 			d: 'M6 13.5l6 6 6-6-1.59-1.591-3.285 3.284V4.5h-2.25v10.693L7.59 11.909 6 13.499z',
 			attrs: {
-				fill: '#0094FF',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{

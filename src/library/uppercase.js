@@ -4,7 +4,7 @@ export default {
 		{
 			d: 'M4.5 4.5h15v15h-15v-15z',
 			attrs: {
-				fill: '#0094FF',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{

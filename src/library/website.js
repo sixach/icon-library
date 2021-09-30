@@ -4,7 +4,7 @@ export default {
 		{
 			d: 'M18 5H5v3h13V5zm1 13v-5l-3-3-3 3v5h6z',
 			attrs: {
-				fill: '#0094FF',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{
