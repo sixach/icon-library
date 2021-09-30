@@ -10,7 +10,7 @@ export default {
 		{
 			d: 'M17 7.5H7l.707 10.87c.007.297.134.581.357.792.223.211.523.332.838.338h1.244L9.512 8.423h7.415L17 7.5z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

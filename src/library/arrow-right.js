@@ -10,7 +10,7 @@ export default {
 		{
 			d: 'M5 11h10.68a1.72 1.72 0 01-.165.341c-.278.459-.817.659-1.353.659H5v-1z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

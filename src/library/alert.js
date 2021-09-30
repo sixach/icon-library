@@ -13,7 +13,7 @@ export default {
 		{
 			d: 'M11.5 10.5c0-1.6-1.5-3 0-5.5C9 5 8 6.5 7.5 8.5s0 2.5-1 4.5C5.7 14.6 5 15.5 5 17h4c0-2 2.5-3.5 2.5-6.5z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

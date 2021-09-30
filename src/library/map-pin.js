@@ -13,7 +13,7 @@ export default {
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

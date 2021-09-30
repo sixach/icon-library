@@ -12,7 +12,7 @@ export default {
 		{
 			d: 'M6 5v15l6-3.5V5H6z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

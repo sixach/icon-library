@@ -10,7 +10,7 @@ export default {
 		{
 			d: 'M13 5v10.68a1.733 1.733 0 01-.341-.165c-.459-.278-.659-.817-.659-1.353V5h1z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

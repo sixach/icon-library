@@ -12,7 +12,7 @@ export default {
 		{
 			d: 'M7 9h10v2H7z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

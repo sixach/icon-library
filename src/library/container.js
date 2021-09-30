@@ -10,7 +10,7 @@ export default {
 		{
 			d: 'M12 10.174L5 8v7.826L12 18v-7.826z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

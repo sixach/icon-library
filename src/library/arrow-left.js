@@ -10,7 +10,7 @@ export default {
 		{
 			d: 'M19 11H8.32c.038.113.097.23.165.341.278.459.817.659 1.353.659H19v-1z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},

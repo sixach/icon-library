@@ -10,7 +10,7 @@ export default {
 		{
 			d: 'M13 19V8.32a1.72 1.72 0 00-.341.165C12.2 8.763 12 9.302 12 9.838V19h1z',
 			attrs: {
-				fill: '#FFF',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: '.25',
 			},
 		},
