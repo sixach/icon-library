@@ -1,3 +1,8 @@
+/**
+ * Helper constant to fixate color values for easier maintenance.
+ *
+ * @since    1.1.1
+ */
 const COLORS = {
 	BLUE: '#9DD1FF',
 	PINK: '#FDBCCB',
