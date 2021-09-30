@@ -5,15 +5,15 @@ export default {
 			d:
 				'M7.625 3.25h8.75v17.5h-8.75V3.25z',
 			attrs: {
-				fill: '#FDBCCB',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{
 			d:
 				'M14.486 3.25L7.625 18.344v2.406h.597l7.954-17.5h-1.69zm-3.918 17.5h4.813l.994-2.188V7.713c-1.273 2.932-4.256 9.8-5.807 13.038z',
 			attrs: {
-				fill: '#E6E6FF',
-				opacity: '.6',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{
@@ -22,7 +22,7 @@ export default {
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
-				fill: '#5364FF',
+				fill: COLORS.SHAPE_BORDER,
 			},
 		},
 	],

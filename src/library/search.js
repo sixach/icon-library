@@ -20,7 +20,7 @@ export default {
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
-				fill: '#1E1E1E',
+				fill: COLORS.SHAPE_BORDER,
 			},
 		},
 	],
