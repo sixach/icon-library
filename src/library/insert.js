@@ -1,7 +1,5 @@
 import { COLORS } from '../utils';
 
-import { COLORS } from '../utils';
-
 export default {
 	id: 'insert',
 	paths: [
