@@ -4,13 +4,13 @@ export default {
 	id: 'triangle',
 	paths: [
 		{
-			d: 'M11.5 18L4.139 6H18.86L11.5 18z',
+			d: 'M11.995 21L2.793 6h18.403l-9.201 15z',
 			attrs: {
 				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{
-			d: 'M5 6.5h1.5l5.95 9-.95 1.6L5 6.5z',
+			d: 'M3.87 6.625h1.875l7.437 11.25-1.187 2L3.87 6.625z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
@@ -18,7 +18,7 @@ export default {
 		},
 		{
 			d:
-				'M11.5 18.5a.5.5 0 01-.426-.239l-7.361-12a.5.5 0 01.426-.761H18.86a.5.5 0 01.426.761l-7.36 12a.5.5 0 01-.427.239zm6.468-12H5.032L11.5 17.044 17.968 6.5z',
+				'M11.995 21.625a.625.625 0 01-.533-.298l-9.201-15a.625.625 0 01.532-.952h18.404a.625.625 0 01.532.952l-9.201 15a.625.625 0 01-.533.298zm0-1.82l8.085-13.18H3.91l8.085 13.18z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',

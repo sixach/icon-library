@@ -4,13 +4,13 @@ export default {
 	id: 'insert',
 	paths: [
 		{
-			d: 'M5 5h14v14H5V5z',
+			d: 'M3.25 3.25h17.5v17.5H3.25V3.25z',
 			attrs: {
 				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{
-			d: 'M5.933 18.067V5H5v14h14v-.933H5.933z',
+			d: 'M4.417 19.583V3.25H3.25v17.5h17.5v-1.167H4.417z',
 			attrs: {
 				fill: COLORS.SHAPE_BACKGROUND_FILL,
 				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
@@ -18,7 +18,7 @@ export default {
 		},
 		{
 			d:
-				'M5 4a1 1 0 00-1 1v14a1 1 0 001 1h14a1 1 0 001-1V5a1 1 0 00-1-1H5zm14 15V5H5v14h14zM12.733 8a.5.5 0 10-1 0v3.233H8.5a.5.5 0 000 1h3.233v3.234a.5.5 0 001 0v-3.234h3.234a.5.5 0 100-1h-3.234V8z',
+				'M3.25 2C2.56 2 2 2.56 2 3.25v17.5c0 .69.56 1.25 1.25 1.25h17.5c.69 0 1.25-.56 1.25-1.25V3.25C22 2.56 21.44 2 20.75 2H3.25zm17.5 1.25H3.25v17.5h17.5V3.25zM12.917 7a.625.625 0 00-1.25 0v4.042H7.625a.625.625 0 100 1.25h4.042v4.041a.625.625 0 101.25 0v-4.041h4.041a.625.625 0 000-1.25h-4.041V7z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
