@@ -4,8 +4,7 @@ export default {
 	id: 'slide',
 	paths: [
 		{
-			d:
-				'M18.25 7H5.75v10h12.5V7z',
+			d: 'M18.25 7H5.75v10h12.5V7z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
