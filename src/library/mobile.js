@@ -1,17 +1,19 @@
+import { COLORS } from '../utils';
+
 export default {
 	id: 'mobile',
 	paths: [
 		{
 			d: 'M8.5 5h7v14h-7V5z',
 			attrs: {
-				fill: '#0094FF',
+				fill: COLORS.SHAPE_FILL,
 			},
 		},
 		{
 			d: 'M13.989 5L8.5 17.075V19h.477l6.364-14h-1.352zm-3.135 14h3.85l.796-1.75V8.57c-1.018 2.345-3.405 7.84-4.646 10.43z',
 			attrs: {
-				fill: '#FFF',
-				opacity: '.25',
+				fill: COLORS.SHAPE_BACKGROUND_FILL,
+				opacity: COLORS.SHAPE_BACKGROUND_OPACITY,
 			},
 		},
 		{
@@ -20,7 +22,7 @@ export default {
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
-				fill: '#1E1E1E',
+				fill: COLORS.SHAPE_BORDER,
 			},
 		},
 	],
