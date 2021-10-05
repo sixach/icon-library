@@ -54,6 +54,6 @@
 		"lint-staged": "^11.1.2"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
+		"access": "public"
 	}
 }
