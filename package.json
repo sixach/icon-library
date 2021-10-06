@@ -1,5 +1,5 @@
 {
-	"name": "@sixach/icon-library",
+	"name": "@sixa/icon-library",
 	"version": "1.1.1",
 	"description": "Icons library.",
 	"keywords": [
@@ -37,7 +37,7 @@
 	"lint-staged": {
 		"*.{js,ts,tsx}": [
 			"npm run lint:js",
-			"npm run format:js"
+			"npm run format"
 		]
 	},
 	"dependencies": {
@@ -54,6 +54,6 @@
 		"lint-staged": "^11.1.2"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
+		"access": "public"
 	}
 }

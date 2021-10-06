@@ -4,8 +4,7 @@ export default {
 	id: 'slider',
 	paths: [
 		{
-			d:
-				'M20.75 3.25H3.25v12.833h17.5V3.25z',
+			d: 'M20.75 3.25H3.25v12.833h17.5V3.25z',
 			attrs: {
 				fillRule: 'evenodd',
 				clipRule: 'evenodd',
