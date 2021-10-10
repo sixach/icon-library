@@ -29,6 +29,7 @@ export { default as filter } from './library/filter';
 export { default as forms } from './library/forms';
 export { default as iconPicker } from './library/icon-picker';
 export { default as insert } from './library/insert';
+export { default as instagram } from './library/instagram';
 export { default as laptop } from './library/laptop';
 export { default as list } from './library/list';
 export { default as mail } from './library/mail';
