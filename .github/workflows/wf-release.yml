@@ -152,7 +152,7 @@ jobs:
         run: npm run build
 
       - name: Prepare files
-        run: rsync -r . ${{ steps.workflow.outputs.dist }}/${{ needs.release-prerequisites.outputs.package }}
+        run: rsync -r --exclude-from=.npmignore . ${{ steps.workflow.outputs.dist }}/${{ needs.release-prerequisites.outputs.package }}
 
       - name: Create ZIP archive
         working-directory: ${{ steps.workflow.outputs.dist }}
