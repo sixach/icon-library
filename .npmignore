@@ -70,5 +70,8 @@ babel.config.js
 renovate.json
 package-lock.json
 
+# GitHub Actions
+.github
+
 # Source files
 src/
