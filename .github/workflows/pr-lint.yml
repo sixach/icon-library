@@ -75,5 +75,4 @@ jobs:
           format_args: ./src
           lint_js: true
           lint_js_args: ./src
-          lint_style: true
           fix_mode: true
