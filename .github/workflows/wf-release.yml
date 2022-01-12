@@ -148,6 +148,9 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
+      - name: Build the Package
+        run: npm run build
+
       - name: Pack Production NPM Bundle
         run: npm pack --pack-destination ${{ steps.workflow.outputs.dist }}
 
