@@ -59,10 +59,17 @@ dist/
 # Documentation
 docs/
 
+# Git repository
+.git
+
+# Npmignore itself
+.npmignore
+
 # .ignore files and development configs
 .editorconfig
 .eslintignore
 .gitattributes
+.gitignore
 .prettierignore
 .prettierrc.js
 babel.config.js
