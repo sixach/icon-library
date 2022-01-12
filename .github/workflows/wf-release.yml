@@ -148,21 +148,14 @@ jobs:
       - name: Install Node.js dependencies
         run: npm ci
 
-      - name: Build JavaScript
-        run: npm run build
+      - name: Pack Production NPM Bundle
+        run: npm pack --pack-destination ${{ steps.workflow.outputs.dist }}
 
-      - name: Prepare files
-        run: rsync -r --exclude-from=.npmignore . ${{ steps.workflow.outputs.dist }}/${{ needs.release-prerequisites.outputs.package }}
-
-      - name: Create ZIP archive
-        working-directory: ${{ steps.workflow.outputs.dist }}
-        run: zip -r ${{ needs.release-prerequisites.outputs.package }}.zip .
-
-      - name: Upload ZIP arfifacts
+      - name: Upload Tar GZ arfifacts
         uses: actions/upload-artifact@v2
         with:
           name: ${{ needs.release-prerequisites.outputs.package }}
-          path: ${{ steps.workflow.outputs.dist }}/${{ needs.release-prerequisites.outputs.package }}.zip
+          path: ${{ steps.workflow.outputs.dist }}/*.tgz
 
   # It will download artifact with and publish an update to Github
   github-release:
@@ -200,8 +193,8 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ needs.release-prerequisites.outputs.next_version }}
-          artifacts: ${{ steps.workflow.outputs.dist }}/${{ needs.release-prerequisites.outputs.package }}.zip
-          artifactContentType: application/zip
+          artifacts: ${{ steps.workflow.outputs.dist }}/*.tgz
+          artifactContentType: application/gzip
           token: ${{ secrets.REPO_PUBLISH_TOKEN }}
           name: "Version v${{ needs.release-prerequisites.outputs.next_version }}"
           body: ${{ steps.changelog.outputs.changelog }}
