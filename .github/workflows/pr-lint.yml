@@ -1,4 +1,4 @@
-name: JavaScript and CSS Linting
+name: JavaScript Linting
 
 on:
   pull_request:
