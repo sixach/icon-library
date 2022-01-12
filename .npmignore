@@ -23,7 +23,6 @@ build/Release
 # Dependency directories
 node_modules/
 vendor/
-build/
 dist/
 
 # Unit tests
