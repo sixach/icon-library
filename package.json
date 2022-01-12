@@ -26,7 +26,7 @@
 		"build": "cross-env BABEL_ENV=default NODE_ENV=production && rm -rf build && mkdir build && babel src --out-dir build --no-copy-ignored",
 		"check-engines": "wp-scripts check-engines",
 		"check-licenses": "wp-scripts check-licenses",
-		"format": "wp-scripts format",
+		"format": "wp-scripts format ./src",
 		"lint:js": "wp-scripts lint-js",
 		"lint:js-fix": "wp-scripts lint-js --fix",
 		"lint:pkg-json": "wp-scripts lint-pkg-json",
