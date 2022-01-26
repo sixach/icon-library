@@ -23,7 +23,6 @@ build/Release
 # Dependency directories
 node_modules/
 vendor/
-build/
 dist/
 
 # Unit tests
@@ -60,15 +59,25 @@ dist/
 # Documentation
 docs/
 
+# Git repository
+.git
+
+# Npmignore itself
+.npmignore
+
 # .ignore files and development configs
 .editorconfig
 .eslintignore
 .gitattributes
+.gitignore
 .prettierignore
 .prettierrc.js
 babel.config.js
 renovate.json
 package-lock.json
+
+# GitHub Actions
+.github
 
 # Source files
 src/
