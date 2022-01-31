@@ -48,7 +48,7 @@
 		"@babel/core": "7.16.12",
 		"@babel/preset-env": "7.16.11",
 		"@babel/preset-react": "7.16.7",
-		"@wordpress/scripts": "20.0.1",
+		"@wordpress/scripts": "20.0.2",
 		"cross-env": "7.0.3",
 		"husky": "7.0.4",
 		"lint-staged": "12.3.2",
