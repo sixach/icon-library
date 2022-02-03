@@ -81,4 +81,3 @@ src/
 
 # Test and Test Utils Files
 build/*/test/
-build/utils/
